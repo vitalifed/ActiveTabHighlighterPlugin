@@ -57,9 +57,9 @@ public class HighlighterSettingsConfig implements PersistentStateComponent<Highl
 //        LOGGER.info("*****setDefaults() ");
         persistentState = new PersistentState();
         persistentState.background.enabled = true;
-        persistentState.background.red = 173;
-        persistentState.background.green = 46;
-        persistentState.background.blue = 156;
+        persistentState.background.red = 129;
+        persistentState.background.green = 230;
+        persistentState.background.blue = 255;
         backgroundColor = persistentState.getBackgroundColor();
         TextAttributes attributes = new TextAttributes();
         attributes.setBackgroundColor(backgroundColor);
